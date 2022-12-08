@@ -1,0 +1,62 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container{
+    margin-top: 15vh;
+    text-align: center;
+}
+
+button{
+    border:none;
+    background-color: transparent;
+}
+
+#author{
+    text-transform: capitalize;
+}
+
+#job{
+    text-transform: uppercase;
+    color:rgb(115, 207, 207);
+}
+.surprise{
+    border:1px solid rgb(83, 177, 177);
+    color:rgb(44, 151, 151);
+    font-weight: 300;
+    border-radius: 10px;
+}
+article{
+    padding: 30px;
+    height:60vh;
+    margin:5vh;
+    border-radius: 5px;
+
+    box-shadow: 5px 5px 5px 5px rgba(62, 55, 55, 0.3);
+    background-color: white;
+    width: 80vh;
+    text-align: center;
+}
+
+.fa{
+    color:rgb(151, 225, 225);
+}
+.btn-container{
+    color:rgb(199, 199, 248);
+    margin:5px;
+    font-size: 4vh;
+}
+
+
+

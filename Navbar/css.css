@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: 'Open Sans', sans-serif;
+    /* line-height: 1.5; */
+    font-size: 0.875rem;
+}
+
+nav{
+    background-color: white;
+    padding:0;
+    box-shadow: 5px 5px 10px rgb(218, 217, 217);
+}
+
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+button{
+        
+        border:none;
+        background-color: transparent;
+}
+
+.nav-toggle{
+    font-size: 30px;
+    color: rgb(110, 201, 223);
+    background-color: white;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.links{
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+    transition: all 0.3s linear;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.show-links {
+    height: 10rem;
+}
+
+.links a{
+    display: block;
+    
+    letter-spacing: 2px;
+    color: black;
+}
+
+
+
+.nav-toggle:hover{
+    transform: rotate(90deg);
+    color: black;
+}
+
+.links a:hover{
+    background-color: rgb(203, 238, 255);
+    transition: all 0.3s linear;
+    text-decoration: none;
+    padding-left: 1.5rem;
+}
+
+.social-icons{
+    display: none;
+}
+
+
+@media screen and (min-width: 800px) {
+    .nav-center{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:0 auto;
+        padding:1rem;
+    }
+    
+    .nav-toggle{
+        display: none;
+    }
+    
+    .nav-header {
+        padding: 0;
+        margin-right:8rem;
+    }
+
+    .links {
+        height: auto;
+        display: flex;
+        list-style: none;
+        font-size: 25px;
+        margin:0 1rem;
+    }
+
+    .links a{
+        padding:0;
+        margin:0 1rem;
+        color:black;
+    }
+
+    .social-icons{
+        display: flex;
+        list-style: none;
+        margin:0 1rem;
+        font-size: 1.5rem;
+        color: rgb(110, 201, 223);
+    }
+
+    
+    
+    i{
+        margin:0 1rem;
+    }
+}
